@@ -120,11 +120,9 @@ namespace TiendaServicios.Api.Libro.Tests
 
 
         [Fact]
-        public async void GuardarLibro() {
-            //Este test es para unit test libro
-            //Este test es para unit test libro
-            //Este test es para unit test libro
-
+        public async void GuardarLibro()
+        {
+            System.Diagnostics.Debugger.Launch();
 
             var options = new DbContextOptionsBuilder<ContextoLibreria>()
                 .UseInMemoryDatabase(databaseName: "BaseDatosLibro")
